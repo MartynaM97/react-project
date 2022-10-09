@@ -1,0 +1,37 @@
+@import "../../styles/settings.scss";
+
+nav {
+  background-color: darken($color-dark, 3%);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: $color-light;
+  font-size: 24px;
+  padding: 0 0 0 12px;
+}
+
+a {
+  color: $color-light;
+  font-size: 24px;
+}
+
+.navlink {
+  display: inline-block;
+  padding: 0 14px;
+}
+
+.navlink a {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.linkActive {
+  color: $color-warning;
+}
